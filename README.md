@@ -1,2 +1,3 @@
-# woocommerce-booking-cart-cleaner
-A utility plugin that clears expired WooCommerce Bookings from the cart
+# WooCommerce Bookings Utilities
+
+A utility plugin with some tools for WooCommerce  Bookings users

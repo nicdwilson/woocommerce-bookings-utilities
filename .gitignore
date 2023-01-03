@@ -17,7 +17,7 @@ wp-content/themes/twenty*/
 # ignore node dependency directories
 node_modules/
 
-# ignore PHPStorm project files
+# ignore PHP Storm project files
 .idea/
 
 # ignore log files and databases

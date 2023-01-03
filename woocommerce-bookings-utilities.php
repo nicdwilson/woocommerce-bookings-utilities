@@ -22,6 +22,7 @@ namespace WC_Bookings_Utilities;
 
 defined( 'ABSPATH' ) || exit;
 
+require_once plugin_dir_path( __FILE__ ) . '/includes/class-utility-settings.php';
 require_once plugin_dir_path( __FILE__ ) . '/includes/class-cart-cleaner.php';
 
 class WooCommerce_Bookings_Utilities {

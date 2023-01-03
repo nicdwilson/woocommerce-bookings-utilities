@@ -24,6 +24,7 @@ defined( 'ABSPATH' ) || exit;
 
 require_once plugin_dir_path( __FILE__ ) . '/includes/class-utility-settings.php';
 require_once plugin_dir_path( __FILE__ ) . '/includes/class-cart-cleaner.php';
+require_once plugin_dir_path( __FILE__ ) . '/includes/class-utility-menu.php';
 
 class WooCommerce_Bookings_Utilities {
 

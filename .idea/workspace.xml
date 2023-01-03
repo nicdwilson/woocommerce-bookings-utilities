@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="834909a4-09a2-4e11-9ada-fcf263262f6f" name="Changes" comment="Bookings status manager will provide a place to manage status of bookings which are not paid by means which will provide order-&gt;payment_complete before carts expire">
+      <change afterPath="$PROJECT_DIR$/includes/class-utility-menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/class-utility-settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/class-utility-settings.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/woocommerce-bookings-utilities.php" beforeDir="false" afterPath="$PROJECT_DIR$/woocommerce-bookings-utilities.php" afterDir="false" />
     </list>

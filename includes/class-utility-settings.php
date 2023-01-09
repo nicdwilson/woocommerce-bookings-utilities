@@ -61,10 +61,10 @@ class Utility_Settings {
 	 */
 	public function do_settings(){
 
-		$this->settings = get_option( 'wc_bookings_utlities_settings', true );
+		$this->settings = get_option( 'wc_bookings_utilities_settings', false );
 
 		if( ! $this->settings ){
-			update_option( 'wc_bookings_utlities_settings', $this->default_settings );
+			update_option( 'wc_bookings_utilities_settings', $this->default_settings );
 			$this->settings = $this->default_settings;
 		}
 	}
@@ -74,34 +74,10 @@ class Utility_Settings {
 	 *
 	 * @return void
 	 */
-	public function add_filters_and_actions(){
+	public function add_filters_and_actions() {
 
 		// Change the expiry time of in-cart bookings. Default is 60 minutes
 		add_filter( 'woocommerce_bookings_remove_inactive_cart_time', array( $this, 'get_cart_expiry_minutes' ) );
-
-		// Setup the settings menu
-		add_action( 'admin_menu', array( $this, 'do_settings_menu' ), 99 );
-	}
-
-	public function do_settings_menu(){
-
-		$settings_page = add_submenu_page(
-			'edit.php?post_type=wc_booking',
-			__( 'Utilities', 'wc-bookings-utilities' ),
-			__( 'Utilities', 'wc-bookings-utilities' ),
-			'manage_options',
-			'wc_bookings_utilities_settings',
-			array( $this, 'render_settings_page' ),
-			999
-		);
-
-	}
-
-
-	public function render_settings_page(){
-
-		echo '';
-
 	}
 
 	/**
@@ -110,7 +86,6 @@ class Utility_Settings {
 	 * @return void
 	 */
 	public function get_cart_expiry_minutes(){
-
 		return $this->settings['cart_expiry_minutes'];
 	}
 

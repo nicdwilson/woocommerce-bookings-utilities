@@ -61,7 +61,7 @@ class Utility_Settings {
 	 */
 	public function do_settings(){
 
-		$this->settings = get_option( 'wc_bookings_utilities_settings', true );
+		$this->settings = get_option( 'wc_bookings_utilities_settings', false );
 
 		if( ! $this->settings ){
 			update_option( 'wc_bookings_utilities_settings', $this->default_settings );
@@ -86,7 +86,6 @@ class Utility_Settings {
 	 * @return void
 	 */
 	public function get_cart_expiry_minutes(){
-
 		return $this->settings['cart_expiry_minutes'];
 	}
 

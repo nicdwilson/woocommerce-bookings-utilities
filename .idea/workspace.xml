@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="834909a4-09a2-4e11-9ada-fcf263262f6f" name="Changes" comment="Bookings status manager will provide a place to manage status of bookings which are not paid by means which will provide order-&gt;payment_complete before carts expire">
-      <change afterPath="$PROJECT_DIR$/includes/class-utility-menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/views/html-admin-settings-fields.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/views/html-utilities-menu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/class-utility-menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/class-utility-menu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/class-utility-settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/class-utility-settings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/woocommerce-bookings-utilities.php" beforeDir="false" afterPath="$PROJECT_DIR$/woocommerce-bookings-utilities.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +49,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/includes/views" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,6 +65,9 @@
       <workItem from="1672377132643" duration="2498000" />
       <workItem from="1672608360993" duration="21000" />
       <workItem from="1672716120884" duration="484000" />
+      <workItem from="1672861076348" duration="1945000" />
+      <workItem from="1673048362644" duration="4579000" />
+      <workItem from="1673065153299" duration="4109000" />
     </task>
     <task id="LOCAL-00001" summary="Bookings status manager will provide a place to manage status of bookings which are not paid by means which will provide order-&gt;payment_complete before carts expire">
       <created>1672377409952</created>
